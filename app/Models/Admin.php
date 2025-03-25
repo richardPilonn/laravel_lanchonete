@@ -14,6 +14,6 @@ class Admin extends Model
         'nome',
         'cpf',
         'email',
-        'senha'
+        'password'
     ];
 }
