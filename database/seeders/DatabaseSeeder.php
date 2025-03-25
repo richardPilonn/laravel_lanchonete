@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             clienteSeeder::class,
             produtoSeeder::class,
+            funcionarioSeeder::class,
         ]);
     }
 }
