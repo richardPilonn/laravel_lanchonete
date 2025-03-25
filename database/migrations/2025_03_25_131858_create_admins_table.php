@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('nome', 100)->nullable(false);
             $table->string('cpf', 14)->nullable(false)->unique(true);
             $table->string('email', 255)->nullable(false)->unique(true);
-            $table->string('senha', 255)->nullable(false);
+            $table->string('password', 255)->nullable(false);
             $table->timestamps();
         });
     }
